@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cta {
+	background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+	background-size: cover;
+	padding: 120px 0;
+}
+
+
+.cta .cta-btn {
+	font-family: "Jost", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 12px 40px;
+	border-radius: 50px;
+	transition: 0.5s;
+	margin: 10px;
+	border: 2px solid #fff;
+	color: #fff;
+    text-decoration: none;
+}
+
+.cta .cta-btn:hover {
+	background: #47b2e4;
+	border: 2px solid #47b2e4;
+}
+
+.cta h3 {
+	color: #fff;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.cta p{
+    color: #fff;
+    font-size: 17px;
+}
